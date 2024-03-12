@@ -14,24 +14,14 @@ const computer = Math.floor( Math.random() * 7 );
 //  ALTRIMENTI SE il valore del giocatore è pari a quello del computer
 //  stampiamo Parità
 
-// if (computer > user) {
-//     console.log("Vince il computer")
+if (computer > user) {
+    console.log("Vince il computer")
     
-// }else if(user > computer){
-//     console.log("Vince il giocatore")
-// }else {
-//     console.log("Parità")
-// }
-addEventListener("click", (event) => {
-    if (computer > user) {
-        console.log("Vince il computer")
-        
-    }else if(user > computer){
-        console.log("Vince il giocatore")
-    }else {
-        console.log("Parità")
-    }
-});
+}else if(user > computer){
+    console.log("Vince il giocatore")
+}else {
+    console.log("Parità")
+}
 
 
 
